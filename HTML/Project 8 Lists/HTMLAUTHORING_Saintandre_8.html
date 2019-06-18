@@ -1,28 +1,48 @@
 <!-- Create an HTML5 document from scratch that is correctly formed and coded that names five places you wish to visit and five of your favorite sites around the world. The output should include two headings, one saying “Places I Want to Visit” and the other saying “5 Best Sites in the World”. Create one of your lists as an ordered list and the other as an unordered list. Use CSS styling to change the default look for each list to make it pleasing and readable for the user. -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Section 8: Lists in HTML5</title>
 </head>
+<style>
+
+    .visit {
+        list-style: none;
+        display: inline-block;
+    }
+
+    .sites {
+        list-style: none;
+        display: inline-block;
+    }
+</style>
+
 <body>
+    <!-- unordered list -->
+
     <h1>Places I want to visit</h1>
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li> 
+    <ul class='visit'>
+        <li>Picture Rock</a></li>
+        <li>Rockie Mountains</li>
+        <li>Hawaii</li>
+        <li>Statue of Liberty</li>
+        <li>MIT University</li>
     </ul>
+
+    <!-- ordered list  -->
     <h1>5 Best sites in the World</h1>
-    <ul>
-        <ol></ol>
-        <ol></ol>
-        <ol></ol>
-        <ol></ol>
-        <ol></ol>
-    </ul>
+    <ol type='A' class='sites'>
+        <ol>YellowStone Park</ol>
+        <ol>Rocky Mountains</ol>
+        <ol>San Franciso, California</ol>
+        <ol>Prague</ol>
+        <ol>Great Barrier Reef</ol>
+    </ol>
 </body>
+<!-- <footer>Best Places to Visit in 2018-19 https://travel.usnews.com/gallery/the-worlds-30-best-places-to-visit-in-2018-19?onepage</footer> -->
+
 </html>
