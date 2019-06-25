@@ -29,10 +29,16 @@ Bulma Images = https://bulma.io/documentation/elements/image/
             justify-content: center;
             align-items: center;
         }
-        .container {
+        .message-body {
             display: flex;
             justify-content: center;
-            align-items: center;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            background-color:rgb(195, 195, 211);
+            text-align: center;
+        }
+        .title{
+            font-family:cursive;
+            text-align: center;
         }
     </style>
 
@@ -54,30 +60,31 @@ Bulma Images = https://bulma.io/documentation/elements/image/
     <!-- section: https://bulma.io/documentation/layout/section/ -->
     <section class="section">
         <div class="container">
-            <div class="columns">
+            <div class="columns ">
                 <div class="column is-one-third">
                     <div class="notification">
 
-                        <figure class="image ">
+                        <figure class="image">
                             <img class='is-rounded'
                                 src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/60158252_10219575994489413_3015713554629132288_n.jpg?_nc_cat=109&_nc_oc=AQnNtRGg0-dfxKqruceOjucVcZmxOsrzQ_LePg8q3n1K7vxmyc4A-ZmGYQqxDv77MhM&_nc_ht=scontent-ort2-2.xx&oh=780f2bbd40d8cf4199f420891ad3bdb1&oe=5D7A9282"
                                 alt=" Ramona Saintandre representing PyLadies GR" />
                         </figure>
                     </div>
                 </div>
-                <div class="column has-background-black">
-                    <div class="notification">
-                        <article class="message is-info ">
+                <div class="column has-background-info">
+                    <div class="notification ">
+                        <article class="message is-info is-large">
                             <div class="message-header">
-                                <p>The reason I code 1</p>
+                                <p class="title"><strong>The reason I started coding</strong> 
+                                 </p>
                             </div>
 
-                            <div class="message-body has-background-success style = "align-items:center">I started coding a little over a year ago, after I lost my job.
+                            <div class="message-body has-background-success">I started coding a little over a year ago, after I lost my job.
                                 <br>
                                 I needed to learn a new skill to get a job, and I was blessed to get a scholarship
                                 through Udacity. <br>
                                 I am continuing my studies now on my own, to get more profiencent. <br>
-                                I am also including my granddaughter in my coding journey. <br>
+                                I am get the privelege of taking my granddaughter Brooklynn along this journey with me. 
                                 </p>
                             </div>
                         </article>
@@ -87,9 +94,9 @@ Bulma Images = https://bulma.io/documentation/elements/image/
         </div>
     </section>
 
-    <section class="section">
-        <div class="container">
-            <div class="columns">
+    <section class="section ">
+        <div class="container ">
+            <div class="columns ">
                 <div class="column is-one-third">
                     <div class="notification">
 
@@ -100,11 +107,11 @@ Bulma Images = https://bulma.io/documentation/elements/image/
                         </figure>
                     </div>
                 </div>
-                <div class="column has-background-danger">
-                    <div class="notification">
-                        <article class="message is-warning">
-                            <div class="message-header">
-                                <p>Sharing my love of Code with my granddaughter</p>
+                <div class="column has-background-danger ">
+                    <div class="notification ">
+                        <article class="message is-warning is-large">
+                            <div class="message-header ">
+                                <p class ="title">Sharing my love of Code with my granddaughter</p>
                             </div>
 
                             <div class="message-body">
@@ -128,8 +135,8 @@ Bulma Images = https://bulma.io/documentation/elements/image/
 
     <section class="section">
         <div class="container">
-            <div class="columns">
-                <div class="column is-one-third">
+            <div class="columns is-mobile ">
+                <div class="column is-one-third ">
                     <div class="notification">
 
                         <figure class="image">
@@ -141,13 +148,13 @@ Bulma Images = https://bulma.io/documentation/elements/image/
                 </div>
 
                 <div class="column ">
-                    <div class="notification">
-                        <article class="message is-success">
+                    <div class="notification ">
+                        <article class="message is-success is-large">
                             <div class="message-header">
-                                <p>Enpowerment through Education and Encourgement</p>
+                                <p class="title">Enpowerment through Education and Encourgement</p>
                             </div>
 
-                            <div class="message-body">
+                            <div class="message-body ">
                                 The biggest thing I have come to appreciate this past year is the awesome community that is out there. <br>
                                 Especially for women devolopers, and newbies. 
                                 Between Free Code Camp, Women in Development, PyLadies.
