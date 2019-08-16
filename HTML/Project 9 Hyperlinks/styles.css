@@ -1,0 +1,9 @@
+body{
+    display: flexbox;
+    background-color:goldenrod;
+}
+
+header{
+    background-color: blue;
+    text-align: center;
+}
