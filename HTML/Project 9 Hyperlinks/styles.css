@@ -6,6 +6,7 @@ body{
 header{
     background-color: blue;
     text-align: center;
+    font-size:10rem;
 }
 img{
 display: flex;
