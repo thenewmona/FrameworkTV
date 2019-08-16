@@ -7,3 +7,17 @@ header{
     background-color: blue;
     text-align: center;
 }
+img{
+display: flex;
+
+}
+.actor{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+ol{
+    text-align: center;
+    background-color: aquamarine;
+    font-size: 15px;
+}
