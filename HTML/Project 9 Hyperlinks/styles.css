@@ -3,10 +3,16 @@ body{
     background-color:goldenrod;
 }
 
-header{
+.mainheader{
     background-color: blue;
     text-align: center;
-    font-size:10rem;
+    font-size:5rem;
+}
+.headerimg {
+    display: flex;
+margin-left: auto;
+margin-right: auto;
+width:10em;
 }
 img{
 display: flex;
@@ -20,10 +26,20 @@ width:10em;
     font-size: 25px;
     font-weight: bold;
 }
+.fpHeader{
+    text-align: center;
+    background-color: rgb(191, 241, 7);
+    font-size: 45px; 
+}
+
 ol{
     text-align: center;
     background-color: aquamarine;
     font-size: 15px;
+    list-style-type:none;
+}
+li{
+    list-style-type: none;
 }
 footer{
     background-color: blue;
